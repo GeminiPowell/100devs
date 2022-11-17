@@ -1,0 +1,40 @@
+body {
+  background-color: lightseagreen;
+  color: white;
+}
+body > div {
+  margin: auto;
+  border: 5px solid green;
+  width: 60%;
+  height: 500px;
+  padding: 20px;
+}
+h1 {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+section {
+  display: inline;
+}
+img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: right;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  display: inline;
+  border-right: 1px solid black;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+li:last-child {
+  border-right: none;
+}
